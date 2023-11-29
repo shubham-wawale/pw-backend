@@ -1,0 +1,34 @@
+{
+  "name": "pw-backend",
+  "version": "1.0.0",
+  "description": "Backend for pawpet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm app.js",
+    "dev": "nodemon -r esm app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham-wawale/pw-backend.git"
+  },
+  "author": "shubham-wawale",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "geo-distance": "^0.2.0",
+    "mongoose": "^5.13.14",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "sha256": "^0.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/shubham-wawale/pw-backend/issues"
+  },
+  "homepage": "https://github.com/shubham-wawale/pw-backend#readme"
+}
